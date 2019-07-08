@@ -4,8 +4,8 @@ spring:
       - dev
       
 ---
-server: 
-  prot: 8201
+server:
+  port: 8201
 spring: 
   profiles: dev
   application: 
@@ -18,7 +18,7 @@ eureka:
       
 ---
 server: 
-  prot: 8202
+  port: 8202
 spring: 
   profiles: test
   application: 
